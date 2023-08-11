@@ -1,0 +1,31 @@
+:root {
+    --cor-de-fundo: #ffffff;
+    }
+    
+    body {
+    background-color: var(--cor-de-fundo);
+    }
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container_botton:checked ~ .lista-menu{
+    display: block;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container-imagem{
+    margin-top: 10px;
+}
+
+
+
